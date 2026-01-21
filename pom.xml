@@ -14,6 +14,7 @@
 
     <properties>
         <revision>5.5.2</revision>
+        <common.version>5.5.2</common.version>
         <spring-boot.version>3.5.9</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -122,7 +123,7 @@
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-common-bom</artifactId>
-                <version>${revision}</version>
+                <version>${common.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -496,5 +497,4 @@
     </pluginRepositories>
 
 </project>
-
 
